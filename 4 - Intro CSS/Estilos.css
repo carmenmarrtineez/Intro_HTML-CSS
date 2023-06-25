@@ -1,0 +1,32 @@
+h1 {
+    color: red;
+}
+/*Probando colores*/
+p {
+    /*Todo lo de dentro de la llave tiene relación clave-valor*/
+    color: blue;
+    font-size: 30pt; 
+}
+
+#primera{
+    color: blueviolet;
+}
+
+#segunda-noticia{
+    color: slateblue;
+    font-size: 10pt;
+}
+
+.encabezado{
+    color: brown;
+    text-transform: uppercase;
+}
+
+/*Conversor universal, a no ser que este especificado es el #*/
+
+#warning{
+    color: red;
+}
+.autor, .fecha, .ubicacion{
+    text-decoration: underline;
+}

@@ -1,0 +1,43 @@
+/*Estilos para colores , herramienta, coolors.co*/
+.colores{
+    color: orangered;
+}
+.color-hexadecimal{
+    color: #423E37;
+}
+.color-rgb{
+    color: rgb(100, 102, 7);
+}
+.color-rgba{
+    color: rgba(23, 56, 22, 0.2);
+}
+.fondo{
+    background-color: blueviolet;
+    background-image: url(data:image/jpeg;base64,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);
+    background-position: center center;
+}
+.fondo-interno{
+    background-image:url(ejemplo.webp);
+    background-position: top center;
+}
+/*Tamaños*/
+.ancho{
+
+    background-color: blueviolet;
+    width: 100px;
+
+}
+.alto{
+    background-color: aquamarine;
+    height: 200px;
+
+}
+.Tarjeta{
+    /*Definir bordes*/
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-block-width: 1px;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
