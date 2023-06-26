@@ -1,0 +1,16 @@
+.boton{
+    border-radius: 15px;
+}
+.boton::after{
+    content: 'Pasa por Encima ';
+    font-size: xx-large;
+}
+
+.boton:hover{
+    color: white;
+    background-color: green;
+}
+.boton:hover::after{
+    content: 'Hecho!'; 
+    font-size: xx-large;
+}

@@ -1,0 +1,36 @@
+.contenedor{
+width: 300px;
+height: 100px;
+background-color: aquamarine;
+}
+span.frase{
+    font-style: italic;
+}
+span.frase::before{/*Ates de que comience el texto*/
+    content: '<< ';
+    font-size: xx-small;
+}
+span.frase::after{
+    content: ' >>';
+    font-size: xx-small;
+}
+.libro{
+    background-color: bisque;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.libro p::first-letter{
+    font-size: xx-large;
+}
+.libro p::first-line{
+    color: white;
+}
+.libro p::selection{/*Cuando seleccionamos texto*/
+    background-color: blueviolet;
+    color: yellow;
+}
+/*Con esto le decimos a la oja de estilo que quieremos que acceda a 
+.listado al tag ul y afecte a todos los li*/
+.listado ul li::marker{
+    color: red;
+}/*Si solo le pongo li afectará también a las listas ordenadas.*/

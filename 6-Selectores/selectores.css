@@ -1,0 +1,13 @@
+.contenedor{
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p-contenedor{
+    color: green;
+}
+.seleccion .contenedor{
+    align-items: center;
+}
+.boton{
+    background-color: yellow;
+}

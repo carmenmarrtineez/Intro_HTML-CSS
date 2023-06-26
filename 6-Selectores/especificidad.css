@@ -1,0 +1,30 @@
+/*Para super poner un estilo sobre el resto utilizamos la 
+etiquera !importante -- aunque hay que evitar usarlo*/
+
+h1{
+    color: blue !important;
+}/*Especifidad 0,0,1*/
+h1{
+    color: green;
+}/*A igualdad de condiciones se aplica el estilo que 
+esta más abajo, porque el primero ha sido sobreescrito*/
+.h1-class{
+    color: yellow;
+}/*Especifidad 0,1,0*/
+#h1-id{
+    color: aquamarine;
+}/*Especifidad 1,0,0   ES EL MÁS ESPECÍFICO*/ 
+/*Da igual cuando sean declarados, si antes o después
+como es más específico es el que se usa
+
+Puedo unir 2 especificidades:  */
+#h1-id.h1-class{
+    color: violet;
+}
+/*Si coloco el style dentro de la línea del tag TRENDRÁ
+MÁS ESPECIFICEDAD AÚN*/
+
+p{
+    color: red;
+}
+

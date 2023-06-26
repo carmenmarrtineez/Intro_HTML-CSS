@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Clases</title>
+    <link rel="stylesheet" href="pseudoclases.css">
+    <!--https://www.w3schools.com/css/css_pseudo_classes.asp-->
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .hover{
+            width: 300px;
+            height: 100px;
+            background-color: bisque;
+        }
+        .hover:hover{
+            background-color: chocolate;
+        }
+        .listado{
+            padding: 15px;
+            background-color: aquamarine;
+        }
+        .listado p:first-child{
+            color: white;
+        }
+        a:link{ /*Link no visitado todavía*/
+            color: deeppink;
+        }
+        a:visited{
+            color: crimson;
+        }
+        a:hover{
+            color: pink;
+        }
+        a:active{/*Cuando se este utilizando*/
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>Estos en una frese de ejemplo para las 
+            pseudoclases. Estos en una frese de ejemplo para las 
+            pseudoclases.Estos en una frese de ejemplo para las 
+            pseudoclases
+        </p>
+
+    </div>
+    <div class="listado">
+        <p>Párrafo 1</p>
+        <p>Párrafo 2</p>
+        <p>Párrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="https://www.google.com/" target="_blank">Enlace Google</a>
+        <!--La etiqueta _blank hace que cuando se habra un enlace este se 
+        abra en una nueva pestaña
+        Cuando  pulsemos un enlace y no queremos que cambie de color una 
+        vez se haya pulsado,hacemos el procedimiento de arriba en el orden
+        que viene. -->
+    </div>
+</body>
+</html>
